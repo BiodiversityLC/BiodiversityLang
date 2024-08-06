@@ -18,7 +18,7 @@ def main():
 
 	print("Getting languages")
 	languages = get_languages()
-	print(f"Found {len(languages)} language(s)! [ {", ".join(languages)} ]")
+	print(f"Found {len(languages)} language(s)! [ {', '.join(languages)} ]")
 
 	defs = {}
 
